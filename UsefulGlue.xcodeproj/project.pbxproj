@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D1133523163FBC0F00ACC0A5 /* GLUClipboardWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = D1133522163FBC0F00ACC0A5 /* GLUClipboardWindow.xib */; };
+		D1133526163FBC8500ACC0A5 /* GLUClipboardWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1133525163FBC8500ACC0A5 /* GLUClipboardWindowController.m */; };
+		D12C4F5116BA445B00303B67 /* GLUMainWindowPanel.m in Sources */ = {isa = PBXBuildFile; fileRef = D12C4F5016BA445B00303B67 /* GLUMainWindowPanel.m */; };
+		D18312A216ACBD0F00ED4C46 /* GLUStatusItemController.m in Sources */ = {isa = PBXBuildFile; fileRef = D18312A116ACBD0F00ED4C46 /* GLUStatusItemController.m */; };
+		D18312A616ACBE2800ED4C46 /* GLUStatusItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = D18312A516ACBE2800ED4C46 /* GLUStatusItemView.m */; };
+		D198FE2B16C0B7E100592441 /* icnSettings.png in Resources */ = {isa = PBXBuildFile; fileRef = D198FE2916C0B7E100592441 /* icnSettings.png */; };
+		D198FE2C16C0B7E100592441 /* icnSettings@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D198FE2A16C0B7E100592441 /* icnSettings@2x.png */; };
+		D198FE2F16C0B87900592441 /* GLUEntriesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D198FE2E16C0B87900592441 /* GLUEntriesViewController.m */; };
+		D198FE3316C0B96C00592441 /* GLUEntriesView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D198FE3216C0B96C00592441 /* GLUEntriesView.xib */; };
+		D198FE3616C0C97400592441 /* CAAnimation+Animations.m in Sources */ = {isa = PBXBuildFile; fileRef = D198FE3516C0C97400592441 /* CAAnimation+Animations.m */; };
+		D198FE3816C0CAAD00592441 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D198FE3716C0CAAD00592441 /* QuartzCore.framework */; };
+		D198FE3B16C0CEA500592441 /* NSView+Layers.m in Sources */ = {isa = PBXBuildFile; fileRef = D198FE3A16C0CEA500592441 /* NSView+Layers.m */; };
+		D198FE3E16C0D08000592441 /* GLUSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D198FE3D16C0D08000592441 /* GLUSettingsViewController.m */; };
+		D198FE4016C0D09000592441 /* GLUSettingsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D198FE3F16C0D09000592441 /* GLUSettingsView.xib */; };
+		D1ADE06916C0A37600DA7A18 /* icnSearch.png in Resources */ = {isa = PBXBuildFile; fileRef = D1ADE06716C0A37600DA7A18 /* icnSearch.png */; };
+		D1ADE06A16C0A37600DA7A18 /* icnSearch@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D1ADE06816C0A37600DA7A18 /* icnSearch@2x.png */; };
+		D1D0018016410DBF009D1DCA /* GLUPasteboardWatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = D1D0017F16410DBF009D1DCA /* GLUPasteboardWatcher.m */; };
+		D1D00184164110EC009D1DCA /* NSManagedObject+ActiveRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = D1D00182164110EC009D1DCA /* NSManagedObject+ActiveRecord.m */; };
+		D1D0018716411409009D1DCA /* GLUEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = D1D0018616411409009D1DCA /* GLUEntry.m */; };
+		D1E6C34F1639077000EF16C7 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1E6C34E1639077000EF16C7 /* Cocoa.framework */; };
+		D1E6C3591639077000EF16C7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D1E6C3571639077000EF16C7 /* InfoPlist.strings */; };
+		D1E6C35B1639077000EF16C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D1E6C35A1639077000EF16C7 /* main.m */; };
+		D1E6C35F1639077000EF16C7 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = D1E6C35D1639077000EF16C7 /* Credits.rtf */; };
+		D1E6C3621639077000EF16C7 /* GLUAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D1E6C3611639077000EF16C7 /* GLUAppDelegate.m */; };
+		D1E6C3651639077000EF16C7 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = D1E6C3631639077000EF16C7 /* MainMenu.xib */; };
+		D1E6C3681639077000EF16C7 /* UsefulGlue.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D1E6C3661639077000EF16C7 /* UsefulGlue.xcdatamodeld */; };
+		D1E6C372163907B100EF16C7 /* GLUStore.m in Sources */ = {isa = PBXBuildFile; fileRef = D1E6C371163907B100EF16C7 /* GLUStore.m */; };
+		D1E7F17F1652CC9400C09655 /* icnUsefulGlue.png in Resources */ = {isa = PBXBuildFile; fileRef = D1E7F17E1652CC9400C09655 /* icnUsefulGlue.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D1133522163FBC0F00ACC0A5 /* GLUClipboardWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = GLUClipboardWindow.xib; path = View/GLUClipboardWindow.xib; sourceTree = "<group>"; };
+		D1133524163FBC8500ACC0A5 /* GLUClipboardWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GLUClipboardWindowController.h; path = Controller/GLUClipboardWindowController.h; sourceTree = "<group>"; };
+		D1133525163FBC8500ACC0A5 /* GLUClipboardWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GLUClipboardWindowController.m; path = Controller/GLUClipboardWindowController.m; sourceTree = "<group>"; };
+		D12C4F4F16BA445B00303B67 /* GLUMainWindowPanel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GLUMainWindowPanel.h; path = View/GLUMainWindowPanel.h; sourceTree = "<group>"; };
+		D12C4F5016BA445B00303B67 /* GLUMainWindowPanel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GLUMainWindowPanel.m; path = View/GLUMainWindowPanel.m; sourceTree = "<group>"; };
+		D18312A016ACBD0F00ED4C46 /* GLUStatusItemController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GLUStatusItemController.h; path = Controller/GLUStatusItemController.h; sourceTree = "<group>"; };
+		D18312A116ACBD0F00ED4C46 /* GLUStatusItemController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GLUStatusItemController.m; path = Controller/GLUStatusItemController.m; sourceTree = "<group>"; };
+		D18312A416ACBE2800ED4C46 /* GLUStatusItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GLUStatusItemView.h; path = View/GLUStatusItemView.h; sourceTree = "<group>"; };
+		D18312A516ACBE2800ED4C46 /* GLUStatusItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GLUStatusItemView.m; path = View/GLUStatusItemView.m; sourceTree = "<group>"; };
+		D18312AD16AD0EB100ED4C46 /* GLUMainWindowDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GLUMainWindowDelegate.h; path = Protocols/GLUMainWindowDelegate.h; sourceTree = "<group>"; };
+		D198FE2916C0B7E100592441 /* icnSettings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icnSettings.png; path = Assets/icnSettings.png; sourceTree = "<group>"; };
+		D198FE2A16C0B7E100592441 /* icnSettings@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icnSettings@2x.png"; path = "Assets/icnSettings@2x.png"; sourceTree = "<group>"; };
+		D198FE2D16C0B87900592441 /* GLUEntriesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GLUEntriesViewController.h; path = Controller/GLUEntriesViewController.h; sourceTree = "<group>"; };
+		D198FE2E16C0B87900592441 /* GLUEntriesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GLUEntriesViewController.m; path = Controller/GLUEntriesViewController.m; sourceTree = "<group>"; };
+		D198FE3216C0B96C00592441 /* GLUEntriesView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = GLUEntriesView.xib; path = View/GLUEntriesView.xib; sourceTree = "<group>"; };
+		D198FE3416C0C97400592441 /* CAAnimation+Animations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "CAAnimation+Animations.h"; path = "Categories/CAAnimation+Animations.h"; sourceTree = "<group>"; };
+		D198FE3516C0C97400592441 /* CAAnimation+Animations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "CAAnimation+Animations.m"; path = "Categories/CAAnimation+Animations.m"; sourceTree = "<group>"; };
+		D198FE3716C0CAAD00592441 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		D198FE3916C0CEA500592441 /* NSView+Layers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSView+Layers.h"; path = "Categories/NSView+Layers.h"; sourceTree = "<group>"; };
+		D198FE3A16C0CEA500592441 /* NSView+Layers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSView+Layers.m"; path = "Categories/NSView+Layers.m"; sourceTree = "<group>"; };
+		D198FE3C16C0D08000592441 /* GLUSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GLUSettingsViewController.h; path = Controller/GLUSettingsViewController.h; sourceTree = "<group>"; };
+		D198FE3D16C0D08000592441 /* GLUSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GLUSettingsViewController.m; path = Controller/GLUSettingsViewController.m; sourceTree = "<group>"; };
+		D198FE3F16C0D09000592441 /* GLUSettingsView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = GLUSettingsView.xib; path = View/GLUSettingsView.xib; sourceTree = "<group>"; };
+		D1ADE06716C0A37600DA7A18 /* icnSearch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icnSearch.png; path = Assets/icnSearch.png; sourceTree = "<group>"; };
+		D1ADE06816C0A37600DA7A18 /* icnSearch@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icnSearch@2x.png"; path = "Assets/icnSearch@2x.png"; sourceTree = "<group>"; };
+		D1D0017E16410DBF009D1DCA /* GLUPasteboardWatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GLUPasteboardWatcher.h; path = Helper/GLUPasteboardWatcher.h; sourceTree = "<group>"; };
+		D1D0017F16410DBF009D1DCA /* GLUPasteboardWatcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GLUPasteboardWatcher.m; path = Helper/GLUPasteboardWatcher.m; sourceTree = "<group>"; };
+		D1D00182164110EC009D1DCA /* NSManagedObject+ActiveRecord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSManagedObject+ActiveRecord.m"; path = "Categories/NSManagedObject+ActiveRecord.m"; sourceTree = "<group>"; };
+		D1D00183164110EC009D1DCA /* NSManagedObject+ActiveRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSManagedObject+ActiveRecord.h"; path = "Categories/NSManagedObject+ActiveRecord.h"; sourceTree = "<group>"; };
+		D1D0018516411409009D1DCA /* GLUEntry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GLUEntry.h; path = Model/GLUEntry.h; sourceTree = "<group>"; };
+		D1D0018616411409009D1DCA /* GLUEntry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GLUEntry.m; path = Model/GLUEntry.m; sourceTree = "<group>"; };
+		D1E6C34A1639077000EF16C7 /* UsefulGlue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UsefulGlue.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1E6C34E1639077000EF16C7 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		D1E6C3511639077000EF16C7 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		D1E6C3521639077000EF16C7 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		D1E6C3531639077000EF16C7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D1E6C3561639077000EF16C7 /* UsefulGlue-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UsefulGlue-Info.plist"; sourceTree = "<group>"; };
+		D1E6C3581639077000EF16C7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D1E6C35A1639077000EF16C7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D1E6C35C1639077000EF16C7 /* UsefulGlue-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UsefulGlue-Prefix.pch"; sourceTree = "<group>"; };
+		D1E6C35E1639077000EF16C7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		D1E6C3601639077000EF16C7 /* GLUAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GLUAppDelegate.h; sourceTree = "<group>"; };
+		D1E6C3611639077000EF16C7 /* GLUAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GLUAppDelegate.m; sourceTree = "<group>"; };
+		D1E6C3641639077000EF16C7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		D1E6C3671639077000EF16C7 /* UsefulGlue.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = UsefulGlue.xcdatamodel; sourceTree = "<group>"; };
+		D1E6C370163907B100EF16C7 /* GLUStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GLUStore.h; path = Model/GLUStore.h; sourceTree = "<group>"; };
+		D1E6C371163907B100EF16C7 /* GLUStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GLUStore.m; path = Model/GLUStore.m; sourceTree = "<group>"; };
+		D1E7F17E1652CC9400C09655 /* icnUsefulGlue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icnUsefulGlue.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D1E6C3471639077000EF16C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D198FE3816C0CAAD00592441 /* QuartzCore.framework in Frameworks */,
+				D1E6C34F1639077000EF16C7 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D113351F163FB37000ACC0A5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D1133524163FBC8500ACC0A5 /* GLUClipboardWindowController.h */,
+				D1133525163FBC8500ACC0A5 /* GLUClipboardWindowController.m */,
+				D18312A016ACBD0F00ED4C46 /* GLUStatusItemController.h */,
+				D18312A116ACBD0F00ED4C46 /* GLUStatusItemController.m */,
+				D198FE2D16C0B87900592441 /* GLUEntriesViewController.h */,
+				D198FE2E16C0B87900592441 /* GLUEntriesViewController.m */,
+				D198FE3C16C0D08000592441 /* GLUSettingsViewController.h */,
+				D198FE3D16C0D08000592441 /* GLUSettingsViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		D1133521163FBBDF00ACC0A5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D1133522163FBC0F00ACC0A5 /* GLUClipboardWindow.xib */,
+				D198FE3216C0B96C00592441 /* GLUEntriesView.xib */,
+				D18312A416ACBE2800ED4C46 /* GLUStatusItemView.h */,
+				D18312A516ACBE2800ED4C46 /* GLUStatusItemView.m */,
+				D12C4F4F16BA445B00303B67 /* GLUMainWindowPanel.h */,
+				D12C4F5016BA445B00303B67 /* GLUMainWindowPanel.m */,
+				D198FE3F16C0D09000592441 /* GLUSettingsView.xib */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		D1133528163FC37800ACC0A5 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				D1D0017E16410DBF009D1DCA /* GLUPasteboardWatcher.h */,
+				D1D0017F16410DBF009D1DCA /* GLUPasteboardWatcher.m */,
+			);
+			name = Helper;
+			sourceTree = "<group>";
+		};
+		D18312AB16AD0E8700ED4C46 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				D18312AD16AD0EB100ED4C46 /* GLUMainWindowDelegate.h */,
+			);
+			name = Protocols;
+			sourceTree = "<group>";
+		};
+		D1D0018116410DD1009D1DCA /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				D1D00183164110EC009D1DCA /* NSManagedObject+ActiveRecord.h */,
+				D1D00182164110EC009D1DCA /* NSManagedObject+ActiveRecord.m */,
+				D198FE3416C0C97400592441 /* CAAnimation+Animations.h */,
+				D198FE3516C0C97400592441 /* CAAnimation+Animations.m */,
+				D198FE3916C0CEA500592441 /* NSView+Layers.h */,
+				D198FE3A16C0CEA500592441 /* NSView+Layers.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+		D1E6C33F1639077000EF16C7 = {
+			isa = PBXGroup;
+			children = (
+				D1E6C3541639077000EF16C7 /* UsefulGlue */,
+				D1E6C34D1639077000EF16C7 /* Frameworks */,
+				D1E6C34B1639077000EF16C7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D1E6C34B1639077000EF16C7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D1E6C34A1639077000EF16C7 /* UsefulGlue.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D1E6C34D1639077000EF16C7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D198FE3716C0CAAD00592441 /* QuartzCore.framework */,
+				D1E6C34E1639077000EF16C7 /* Cocoa.framework */,
+				D1E6C3501639077000EF16C7 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D1E6C3501639077000EF16C7 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D1E6C3511639077000EF16C7 /* AppKit.framework */,
+				D1E6C3521639077000EF16C7 /* CoreData.framework */,
+				D1E6C3531639077000EF16C7 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		D1E6C3541639077000EF16C7 /* UsefulGlue */ = {
+			isa = PBXGroup;
+			children = (
+				D18312AB16AD0E8700ED4C46 /* Protocols */,
+				D1E7F17B1652CC7200C09655 /* Assets */,
+				D1D0018116410DD1009D1DCA /* Categories */,
+				D1133528163FC37800ACC0A5 /* Helper */,
+				D1133521163FBBDF00ACC0A5 /* View */,
+				D113351F163FB37000ACC0A5 /* Controller */,
+				D1E6C36E1639077B00EF16C7 /* Model */,
+				D1E6C3601639077000EF16C7 /* GLUAppDelegate.h */,
+				D1E6C3611639077000EF16C7 /* GLUAppDelegate.m */,
+				D1E6C3631639077000EF16C7 /* MainMenu.xib */,
+				D1E6C3661639077000EF16C7 /* UsefulGlue.xcdatamodeld */,
+				D1E6C3551639077000EF16C7 /* Supporting Files */,
+			);
+			path = UsefulGlue;
+			sourceTree = "<group>";
+		};
+		D1E6C3551639077000EF16C7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D1E6C3561639077000EF16C7 /* UsefulGlue-Info.plist */,
+				D1E6C3571639077000EF16C7 /* InfoPlist.strings */,
+				D1E6C35A1639077000EF16C7 /* main.m */,
+				D1E6C35C1639077000EF16C7 /* UsefulGlue-Prefix.pch */,
+				D1E6C35D1639077000EF16C7 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D1E6C36E1639077B00EF16C7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D1E6C36F1639079700EF16C7 /* GluStore */,
+				D1D0018516411409009D1DCA /* GLUEntry.h */,
+				D1D0018616411409009D1DCA /* GLUEntry.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		D1E6C36F1639079700EF16C7 /* GluStore */ = {
+			isa = PBXGroup;
+			children = (
+				D1E6C370163907B100EF16C7 /* GLUStore.h */,
+				D1E6C371163907B100EF16C7 /* GLUStore.m */,
+			);
+			name = GluStore;
+			sourceTree = "<group>";
+		};
+		D1E7F17B1652CC7200C09655 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				D1E7F17D1652CC7D00C09655 /* icons */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+		D1E7F17D1652CC7D00C09655 /* icons */ = {
+			isa = PBXGroup;
+			children = (
+				D198FE2916C0B7E100592441 /* icnSettings.png */,
+				D198FE2A16C0B7E100592441 /* icnSettings@2x.png */,
+				D1ADE06716C0A37600DA7A18 /* icnSearch.png */,
+				D1ADE06816C0A37600DA7A18 /* icnSearch@2x.png */,
+				D1E7F17E1652CC9400C09655 /* icnUsefulGlue.png */,
+			);
+			name = icons;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D1E6C3491639077000EF16C7 /* UsefulGlue */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D1E6C36B1639077000EF16C7 /* Build configuration list for PBXNativeTarget "UsefulGlue" */;
+			buildPhases = (
+				D1E6C3461639077000EF16C7 /* Sources */,
+				D1E6C3471639077000EF16C7 /* Frameworks */,
+				D1E6C3481639077000EF16C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UsefulGlue;
+			productName = UsefulGlue;
+			productReference = D1E6C34A1639077000EF16C7 /* UsefulGlue.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D1E6C3411639077000EF16C7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = GLU;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Juwe Takeheshi";
+			};
+			buildConfigurationList = D1E6C3441639077000EF16C7 /* Build configuration list for PBXProject "UsefulGlue" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D1E6C33F1639077000EF16C7;
+			productRefGroup = D1E6C34B1639077000EF16C7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D1E6C3491639077000EF16C7 /* UsefulGlue */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D1E6C3481639077000EF16C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1E6C3591639077000EF16C7 /* InfoPlist.strings in Resources */,
+				D1E6C35F1639077000EF16C7 /* Credits.rtf in Resources */,
+				D1E6C3651639077000EF16C7 /* MainMenu.xib in Resources */,
+				D1133523163FBC0F00ACC0A5 /* GLUClipboardWindow.xib in Resources */,
+				D1E7F17F1652CC9400C09655 /* icnUsefulGlue.png in Resources */,
+				D1ADE06916C0A37600DA7A18 /* icnSearch.png in Resources */,
+				D1ADE06A16C0A37600DA7A18 /* icnSearch@2x.png in Resources */,
+				D198FE2B16C0B7E100592441 /* icnSettings.png in Resources */,
+				D198FE2C16C0B7E100592441 /* icnSettings@2x.png in Resources */,
+				D198FE3316C0B96C00592441 /* GLUEntriesView.xib in Resources */,
+				D198FE4016C0D09000592441 /* GLUSettingsView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D1E6C3461639077000EF16C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1E6C35B1639077000EF16C7 /* main.m in Sources */,
+				D1E6C3621639077000EF16C7 /* GLUAppDelegate.m in Sources */,
+				D1E6C3681639077000EF16C7 /* UsefulGlue.xcdatamodeld in Sources */,
+				D1E6C372163907B100EF16C7 /* GLUStore.m in Sources */,
+				D1133526163FBC8500ACC0A5 /* GLUClipboardWindowController.m in Sources */,
+				D1D0018016410DBF009D1DCA /* GLUPasteboardWatcher.m in Sources */,
+				D1D00184164110EC009D1DCA /* NSManagedObject+ActiveRecord.m in Sources */,
+				D1D0018716411409009D1DCA /* GLUEntry.m in Sources */,
+				D18312A216ACBD0F00ED4C46 /* GLUStatusItemController.m in Sources */,
+				D18312A616ACBE2800ED4C46 /* GLUStatusItemView.m in Sources */,
+				D12C4F5116BA445B00303B67 /* GLUMainWindowPanel.m in Sources */,
+				D198FE2F16C0B87900592441 /* GLUEntriesViewController.m in Sources */,
+				D198FE3616C0C97400592441 /* CAAnimation+Animations.m in Sources */,
+				D198FE3B16C0CEA500592441 /* NSView+Layers.m in Sources */,
+				D198FE3E16C0D08000592441 /* GLUSettingsViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D1E6C3571639077000EF16C7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D1E6C3581639077000EF16C7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D1E6C35D1639077000EF16C7 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D1E6C35E1639077000EF16C7 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		D1E6C3631639077000EF16C7 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D1E6C3641639077000EF16C7 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D1E6C3691639077000EF16C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		D1E6C36A1639077000EF16C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		D1E6C36C1639077000EF16C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UsefulGlue/UsefulGlue-Prefix.pch";
+				INFOPLIST_FILE = "UsefulGlue/UsefulGlue-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D1E6C36D1639077000EF16C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UsefulGlue/UsefulGlue-Prefix.pch";
+				INFOPLIST_FILE = "UsefulGlue/UsefulGlue-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D1E6C3441639077000EF16C7 /* Build configuration list for PBXProject "UsefulGlue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1E6C3691639077000EF16C7 /* Debug */,
+				D1E6C36A1639077000EF16C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D1E6C36B1639077000EF16C7 /* Build configuration list for PBXNativeTarget "UsefulGlue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1E6C36C1639077000EF16C7 /* Debug */,
+				D1E6C36D1639077000EF16C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D1E6C3661639077000EF16C7 /* UsefulGlue.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D1E6C3671639077000EF16C7 /* UsefulGlue.xcdatamodel */,
+			);
+			currentVersion = D1E6C3671639077000EF16C7 /* UsefulGlue.xcdatamodel */;
+			path = UsefulGlue.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D1E6C3411639077000EF16C7 /* Project object */;
+}
